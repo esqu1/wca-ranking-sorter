@@ -29,7 +29,7 @@ $(document).ready(function(){
                 for (var i = 0; i < average.length; i++) {
                     var s = $('<tr></tr>').addClass('active');
                     for (var j = 0; j < events.length; j++) {
-                        if (events[j].id == single[i].eventId) {
+                        if (events[j].id == average[i].eventId) {
                             eventName = events[j].name;
                             break;
                         }
